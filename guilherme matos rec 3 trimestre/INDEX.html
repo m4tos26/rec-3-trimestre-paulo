@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="layout.css">
+    <title>Rec de lógica</title>
+</head>
+<body>
+    <div class="caixão">
+        <img src="./Calculadora.png" id="calculadora">
+        <span id="titulo">Cálculo do Salário</span>
+        <p>
+        <span id="hidden"> - </span>
+
+        <div class="pequeno">
+            <img src="./Nome.png" id="nome">
+            <span id="texto">Nome</span>
+            <p>
+            <input type="text" id="caixa">
+            <p>
+
+            <img src="./Dinheiro.png" id="dinheiro">
+            <span id="texto">Valor Hora</span>
+            <p>
+            <input type="text" id="Hora" placeholder="R$0.00">
+            <p>
+
+            <img src="./Hora.png" id=hora>
+            <span id="texto">Quantidade de Horas Trabalhadas</span>
+            <p>
+            <input type="text" id="Quantidade" placeholder="0.00">
+            <p>
+
+            <img src="./Dinheiro.png" id="dinheiro">
+            <span id="texto">Salário Bruto</span>
+            <p>
+            <input type="text" id="caixa" placeholder="R$0.00" readonly>
+            <p>
+
+            <img src="./Dinheiro.png" id="dinheiro">
+            <span id="texto">IRRF</span>
+            <p>
+            <input type="text" id="irrf" placeholder="R$0.00">
+            <P>
+
+            <img src="./Dinheiro.png" id="dinheiro">
+            <span id="texto">Gratificação</span>
+            <p>
+            <input type="text" id="gratifi" placeholder="R$0.00">
+            <p>
+
+            <img src="./Dinheiro.png" id="dinheiro">
+            <span id="texto">Salário Líquido</span>
+            <p>
+            <input type="text" id="caixa" placeholder="R$0.00" readonly>
+        </div>
+
+        <div class="bu">
+            <input type="button" onclick="limpar()" id="branco" value="Limpar">
+            <input type="button" onclick="Calcular()" id="verde" value="Calcular">
+        </div>
+    </div>
+
+    <script src="./Calculadora.js"></script>
+</body>
+</html>
